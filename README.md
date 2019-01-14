@@ -12,7 +12,7 @@ fisher add fishpkg/fish-pwd-info
 
 ## Usage
 
-```console
+```
 pwd_info [SEPARATOR]
 ```
 
