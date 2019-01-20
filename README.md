@@ -1,6 +1,6 @@
 # fish-pwd-info
 
-Print easy-to-parse information about the current working directory.
+A [fish shell](https://fishshell.com) package to orint easy-to-parse information about the current working directory.
 
 ## Installation
 
