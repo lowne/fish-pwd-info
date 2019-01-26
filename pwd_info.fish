@@ -2,7 +2,7 @@ function pwd_info -a separator -d "Print easy-to-parse information the current w
     set -l home ~
     set -l git_root (command git rev-parse --show-toplevel ^ /dev/null)
 
-    echo "$PWD" | awk -v home="$home" -v git_root="$git_root" -v separator="$separator" '
+    pwd -P | awk -v home="$home" -v git_root="$git_root" -v separator="$separator" '
         function base(string) {
             sub(/^\/?.*\//, "", string)
             return string
